@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Yo</title>
+</head>
+<body>
+
+<form method="GET" action="">
+URL: <input type="text" name="link" /><br>
+Extract only audio: <input type="checkbox" name="audioOnly" {% if mode == "audio" %} checked="checked" {% endif %} /><br>
+Download only: <input type="checkbox" name="downloadOnly" checked="checked" /><br>
+<input type="submit" />
+</form>
+
+</body>
+</html>
